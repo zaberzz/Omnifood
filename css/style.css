@@ -14,6 +14,25 @@ body {
 /********************************/
 /*  GENERAL RESUEABLE COMPONENTS*/
 /********************************/
+.container {
+  max-width: 140rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+}
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+.grid--2--colms {
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid--3--colms {
+  grid-template-columns: repeat(3, 1fr);
+}
+.grid--4--colms {
+  grid-template-columns: repeat(4, 1fr);
+}
 .heading-primary {
   font-size: 5.2rem;
   line-height: 1.05;
@@ -61,6 +80,7 @@ body {
 .margin-right-sm {
   margin-right: 1.6rem;
 }
+
 /********************************/
 /* HEADER SECTION */
 /********************************/
