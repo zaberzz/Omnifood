@@ -351,18 +351,18 @@
   letter-spacing: 0.75;
   margin-bottom: 3.2rem;
 }
-.princing-plan--starter {
+.pricing-plan--starter {
   border: 2px solid #fdf2e9;
   justify-self: end;
   padding: 4.6rem;
 }
-.princing-plan--complete {
+.pricing-plan--complete {
   background-color: #fdf2e9;
   padding: 4.8rem;
   position: relative;
   overflow: hidden;
 }
-.princing-plan--complete::after {
+.pricing-plan--complete::after {
   position: absolute;
   content: "Best Value";
   top: 6%;
@@ -376,7 +376,7 @@
   padding: 0.8rem 8rem;
   transform: rotate(45deg);
 }
-.princing-plan {
+.pricing-plan {
   border-radius: 11px;
 
   width: 75%;
